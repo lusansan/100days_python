@@ -15,3 +15,4 @@ elif bmi < 35:
     print("You are obese.")
 else:
     print("You are clinically obese.")
+
