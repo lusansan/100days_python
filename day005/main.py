@@ -33,11 +33,10 @@ else:
         pw_str = pw_str + pw[j]
         del pw[j]
 
+    print(f"Here is your password: {pw_str}")
 
     # random.shuffle(pw)
     # print(f"Here is your password: {''.join(pw)}")
-
-    print(f"Here is your password: {pw_str}")
 
     if len(pw_str) <= 6:
         print("Your password is weak, try to include at least 8 characters for a stronger password.")
