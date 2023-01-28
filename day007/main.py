@@ -11,8 +11,6 @@ choose_word = word_list[radom_int-1]
 guess_word = ["_"]*len(choose_word)
 # print(guess_word)
 
-# i = os.system("clear")
-
 print(f"{logo3}")
 print("\nTo win, guess the word before the person is hung.\n")
 
