@@ -7,7 +7,6 @@ def guess_number():
 
     print("I'm thinking of a number between 1 and 100, try to guess it")
     number = random.randint(1,100)
-    print(number)
 
     difficulty = input("Choose a difficulty. Type 'easy' or 'hard': ")
 
@@ -53,31 +52,3 @@ def guess_number():
         print("Goodbye.")
 
 guess_number()
-        
-
-
-
-# run = True
-# while run:
-
-# attempt = int(input("Take you guess: "))
-
-# print(f"You have {guesses} guesses left for the number that I'm thinking of.")
-
-# print(f"Last try to guess the number that I'm thinking of.")
-
-# print(f"Correct! The answer was {guess_this}. Thanks for completing that! 😁")
-
-# print("Game over.")
-
-# print("Too low.")
-
-# print("Too high.")
-
-
-# play_again = input("\nDo you want to play again? Type 'y' if yes and 'n' to quit.")
-# if play_again == 'y':
-# clear()
-# guess_the_number()
-# else:
-# print("Goodbye.")
